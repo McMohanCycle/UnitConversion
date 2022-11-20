@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gaurav's Unit Convertor</title>
+  </head>
+  <body>
+    <main>
+      <h4 id="dark-mode-h4" onclick="toggleDarkMode()">Toggle dark mode</h4>
+      <div class="container">
+        <div class="heading">
+          <h1 class="heading-h1">Metric/Imperial Unit Conversion</h1>
+          <input
+            type="number"
+            autofocus
+            name="value-input"
+            id="value-input"
+            placeholder="0"
+          />
+          <button id="cta-btn" onclick="convert()">Convert</button>
+        </div>
+        <div class="converted-container">
+          <div class="converted">
+            <h4>Length (Meter/Feet)</h4>
+            <p id="m-p">0 meters = 0 feet | 0 feet = 0 meters</p>
+          </div>
+          <div class="converted">
+            <h4>Volume (Liters/Gallons)</h4>
+            <p id="l-p">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+          </div>
+          <div class="converted">
+            <h4>Mass (Kilograms/Pounds)</h4>
+            <p id="k-p">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+          </div>
+        </div>
+      </div>
+      <footer><h4 class="footer-h4">Made by Gaurav</h4></footer>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
