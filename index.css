@@ -99,8 +99,9 @@ footer h4 {
   color: #6943ff;
   border: none;
   border-radius: 0.4rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   margin: 2rem 0 0;
+  font-size: 1.2rem;
   font-weight: 500;
   cursor: pointer;
 }
